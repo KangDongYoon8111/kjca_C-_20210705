@@ -13,7 +13,7 @@ namespace p144_ex1
             //      int i = 1;
             //      Console.WriteLine(i = i + 1);   답 :2
             //      Console.WriteLine(i++);         답 : i= 1 +1 = 2
-            //      Console.WriteLine(++i);         답 :1
+            //      Console.WriteLine(++i);         답 :2
             //      Console.WriteLine(i += 1);      답 :2
             //
             // 3. 다음 코드에서 b는 어떤 값을 가질까요?    답 : ABC 
