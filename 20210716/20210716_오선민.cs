@@ -97,9 +97,9 @@ namespace _20210716_OSM
            static void Main(string[] args)
            {
                WriteLine("숫자를 입력하세요 : ");
-               int a = Convert.ToInt32(ReadLine);
+               int a = Convert.ToInt32(ReadLine());
                WriteLine("숫자를 입력하세요 : ");
-               int b = = Convert.ToInt32(ReadLine);
+               int b =  Convert.ToInt32(ReadLine());
 
                WriteLine($"{a / b}");
 
@@ -122,13 +122,13 @@ namespace _20210716_OSM
            static void Main(string[] args)
            {
                WriteLine("숫자를 입력하세요 : ");
-               int a = Convert.ToInt32(ReadLine);
+               int a = Convert.ToInt32(ReadLine());
                WriteLine("숫자를 입력하세요 : ");
-               int b = = Convert.ToInt32(ReadLine);
+               int b = Convert.ToInt32(ReadLine());
                WriteLine("숫자를 입력하세요 : ");
-               int c = Convert.ToInt32(ReadLine);
+               int c = Convert.ToInt32(ReadLine());
                WriteLine("숫자를 입력하세요 : ");
-               int d = = Convert.ToInt32(ReadLine);
+               int d = Convert.ToInt32(ReadLine());
 
                WriteLine($"{a * b * c * d}");
 
