@@ -7,7 +7,7 @@ namespace ConsoleApp3
 		static void LoopTest(int i)
         {
 			if (i > 119) { return; }
-			Console.WriteLine(i);
+			Console.Write(i + " ");
 			LoopTest(++i);
         }
 
@@ -15,16 +15,16 @@ namespace ConsoleApp3
         {
 			goto Loop;
 		Loop:
-			Console.WriteLine(i++);
+			Console.Write(i++ + " ");
 			if (i <= 119) { goto Loop; }
         }
 
 		static void Main(string[] args)
 		{
-			LoopTest(0);
+			LoopTest(1);
 			Console.WriteLine();
 
-			LoopTest2(0);
+			LoopTest2(1);
 		}
 	}
 }
