@@ -28,12 +28,15 @@ namespace _20210723
                 }
                 else//입력받은 수 만큼 * 표시
                 {
-                    for(int i=0;i < input; i++)
-                        for(int j = 0; j <= i; j++)
+                    for (int i = 0; i < input + 1; i++)
+                    {
+                        for (int j = 0; j < i; j++)
                         {
                             Console.Write("*");
                         }
-                    Console.WriteLine();
+                        Console.WriteLine(" ");
+                    }
+
                 }
 
             }
