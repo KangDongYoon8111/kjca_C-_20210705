@@ -11,7 +11,7 @@ namespace p169_ex1
             int number = Convert.ToInt32(input);
 
 
-                if (number <= 0) Console.WriteLine("O보다 작거나 같은 수는 입력할 수 없습니다.");
+                if (number < 0) Console.WriteLine("O보다 작거나 같은 수는 입력할 수 없습니다.");
 
             for (int i = 0; i < number; i++)
             {
