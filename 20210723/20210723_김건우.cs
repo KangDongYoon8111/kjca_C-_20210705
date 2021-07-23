@@ -13,7 +13,6 @@ namespace ConsoleApp3
 
 		static void LoopTest2(int i)
         {
-			goto Loop;
 		Loop:
 			Console.Write(i++ + " ");
 			if (i <= 119) { goto Loop; }
