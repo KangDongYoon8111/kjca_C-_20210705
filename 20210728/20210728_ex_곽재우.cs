@@ -1,21 +1,23 @@
 ﻿using System;
 
-namespace _20210728_ex1_곽재우.cs
+namespace _20200728_ex2_곽재우.cs
 {
     class Program
     {
-        static double Square(double arg)
+        public static void Main()
         {
-            double i = arg * arg;
-            return i;
-        }
-        static void Main(string[] args)
-        {
-            Console.Write("수를 입력하세요 : ");
-            string input = Console.ReadLine();
-            double arg = Convert.ToDouble(input);
+            double mean = 0;
 
-            Console.WriteLine("결과 : {0}", Square(arg));
+            Mean(1, 2, 3, 4, 5, ref mean);
+
+            Console.WriteLine("평균 : {0}", mean); ;
+        }
+
+        public static void Mean(
+            double a, double b, double c,
+            double d, double e, ref double mean)
+        {
+            mean = (a + b + c + d + e) / 5;
         
         }
     }
