@@ -28,9 +28,9 @@ namespace p217_ex1
             c = a + b;
         }
 
-        static void Plus(double x, double y, out double z)
+        static void Plus(double a, double b, out double c)
         {
-            z = x + y;
+            c = a + b;
         }
     }
 }
